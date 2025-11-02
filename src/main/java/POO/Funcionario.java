@@ -1,6 +1,6 @@
 package POO;
 
-public class Funcionario extends Pessoa {
+public class Funcionario extends Pessoa implements Pagamento{
 
     String cpf;
     double salario;
@@ -63,5 +63,11 @@ public class Funcionario extends Pessoa {
     public void almocar(int opcao, String texto, double formaPagamento){
 
 
+    }
+
+    @Override
+    public void pagar() {
+
+        System.out.println("Pagamento Via Pix");
     }
 }
