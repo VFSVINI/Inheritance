@@ -1,6 +1,6 @@
 package POO;
 
-public class Pessoa {
+public abstract class Pessoa {
 
     private String nome;
     private char sexo;
@@ -58,5 +58,7 @@ public class Pessoa {
         System.out.println(sexo);
         System.out.println(idade);
     }
+
+    public abstract void falar();
 
 }

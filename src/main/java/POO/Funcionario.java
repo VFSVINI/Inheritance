@@ -35,6 +35,11 @@ public class Funcionario extends Pessoa implements Pagamento{
 
     }
 
+    @Override
+    public void falar() {
+
+    }
+
     //Sobrecarga
     public void almocar(){
 
